@@ -70,3 +70,15 @@ for (let i = 0, len = revealDelayElements.length; i < len; i++) {
 
 window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
+
+
+function showCard(name) {
+  var divIds = ['blue', 'green', 'red'];
+  for(var i = 0; i < divIds.length; i++) {
+    if(divIds[i] === name) {
+      document.getElementById(divIds[i]).style.display = "block";
+    } else {
+      document.getElementById(divIds[i]).style.display = "none";
+    }    
+  }
+}

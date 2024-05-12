@@ -10,13 +10,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header class="header" data-header>
     <div class="container ">
       <a href="#" class="logo">
-        <img src="static/logo.svg" width="30" alt="Somu the Coder" title="Somu the Coder">
+        <img src="static/logo.svg" width="30" alt="Somu the Coder" title="Somu the Coder"> <span class="title">Soma
+          &nbsp;<span class="purple">Sundaram</span></span>
       </a>
       <nav class="navbar" data-navbar>
         <div class="navbar-top">
@@ -58,8 +60,7 @@
         <div class="container">
 
           <figure class="hero-banner">
-            <img src="static/sss.jpeg" width="560" height="540" alt="Somu the coder" class="w-100"
-              data-reveal="top">
+            <img src="static/sss.jpeg" width="560" height="540" alt="Somu the coder" class="w-100" data-reveal="top">
           </figure>
 
           <div class="hero-content">
@@ -68,7 +69,7 @@
             </h1>
 
             <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
-              Hello! I'm Soma Sundaram, a Senior Technical Analyst with 17 years of experience in the IT industry. Highly skilled in Java, Spring Boot, Angular, React, Bootstrap, Material UI, CSS, and JavaScript. Experienced in working with Docker/Kubernetes and Apache Tomcat.
+              Hello! I'm Soma Sundaram, a Senior Technical Analyst and Full Stack developer.
             </p>
 
             <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
@@ -81,10 +82,129 @@
 
         </div>
       </section>
+      <section class="section about" aria-label="about">
+        <div class="container">
+          <div class="wrapper">
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+              <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+                Hello! I'm Soma Sundaram, a Senior Technical Analyst with 17 years of experience in the IT industry.
+                Highly skilled in Java, Spring Boot, Angular, React, Bootstrap, Material UI, CSS, and JavaScript.
+                Experienced in working with Docker/Kubernetes and Apache Tomcat.
+              </p>
+            </div>
+            <span class="content"></span>
+          </div>
+        </div>
+      </section>
+      <section class="section exp" arial-label="experience">
+        <div class="container">
+          <h2 class="h2 section-title">Experience</h2>
+          <div class="wrapper">
+            <div class="exp_list">              
+              <ol class="c-timeline">
+                <li class="c-timeline__item">
+                  <div class="c-timeline__content">
+                    <h3 class="c-timeline__title" onclick="showCard('blue')">Toppan Merrill ▪ Chennai ▪ India</h3>
+                    <h5 class="c-timeline__title">Senior Technical Analyst</h5>
+                    <!-- <p class="c-timeline__desc">Handling an internal application as Job Management System, which has
+                      300+
+                      unique pages. This
+                      application is used to manage/hep organizations to file their filing against SEC platform.
+                      Currently
+                      we are migrating
+                      this application into latest tech stack.</p> -->
+                  </div>
+                  <time>11/2018 – present</time>
+                </li>
+                <li class="c-timeline__item">
+                  <div class="c-timeline__content">
+                    <h3 class="c-timeline__title" onclick="showCard('green')">BNY Mellon ▪ Chennai ▪ India</h3>
+                    <h5 class="c-timeline__title">Project Lead</h5>
+                    <!-- <p class="c-timeline__desc">Handled multiple applications, one of the major internal SPA as DR
+                      Dashboard (Disaster
+                      Recovery Dashboard). This application is used to manage all servers, network status during DR
+                      activity. This helps
+                      management to monitor the current status of servers clusters and network flip during DR (Disaster
+                      Recovery) activity.</p> -->
+                  </div>
+                  <time>06/2015 – 11/2018</time>
+                </li>
+                <li class="c-timeline__item">
+                  <div class="c-timeline__content">
+                    <h3 class="c-timeline__title" onclick="showCard('red')">Hotcourses Pvt. Ltd. ▪ Chennai ▪ India</h3>
+                    <h5 class="c-timeline__title">Module Lead</h5>
+                    <!-- <p class="c-timeline__desc">Handled multiple applications, one of the major application is Uniguru
+                      which has list of
+                      courses according to country wise. This application helps students to find out their best courses
+                      according to their
+                      interest.</p> -->
+                  </div>
+                  <time>06/2008 – 06/2015</time>
+                </li>
+              </ol>
+            </div>
+            <div class="blue" id="blue">
+              <h2 class="card-title">Toppan Merrill ▪ Chennai ▪ India</h2>
+              <div class="exp_details ">
+                <h4 class="card-subtitle">Senior Technical Analyst <span class="timeline">11/2018 – present</span></h4>
+                <p>Handling an internal application as Job Management System, which has 300+ unique pages. This
+                  application is used to manage/hep organizations to file their filing against SEC platform. Currently
+                  we are migrating this application into latest tech stack.</p>
+                <p class="bg-title"><img src="static/website.png" class="icon-img" /> Stack</p>                
+                <p>Spring boot 2.x, Java 1.8, Spring MVC, SQL Server, JSP, JQuery, Apache Tomcat 8.5.27</p>                
+                <p class="bg-title"><img src="static/website.png" class="icon-img" /> New Tech Stack</p>
+                <p>Spring boot 3.x, Java Open JDK 17, React, MUI (Material UI), Typescript, Kubernetes (on-premise)</p>
+                <p class="bg-title"><img src="static/goal.png" class="icon-img" /> Roles and Responsibilities</p>
+                <ul class="list">
+                  <li>Developed technical specifications for new applications</li>
+                  <li>Wrote code to develop new features</li>
+                  <li>Coordinated with team members to troubleshoot technical issues</li>
+                  <li>Monitored performance of applications and provided recommendations for improvements</li>
+                </ul>
+              </div>
+            </div>
+            <div class="green" id="green" style="display: none;">
+              <h2 class="card-title">Bny Mellon ▪ Chennai ▪ India</h2>
+              <div class="exp_details ">
+                <h4 class="card-subtitle">Project Lead <span class="timeline">06/2015 – 11/2018</span></h4>
+                <p>Handled multiple applications, one of the major internal SPA as DR Dashboard (Disaster Recovery Dashboard). This application is used to manage all servers, network status during DR activity. This helps management to monitor the current status of server clusters and network flip during DR activity.</p>
+                <p class="bg-title"><img src="static/website.png" class="icon-img" /> Stack</p>                
+                <p>Spring 5.x, Java 1.8, Angular JS, Angular, Typescript</p>                
+                <p class="bg-title"><img src="static/goal.png" class="icon-img" /> Roles and Responsibilities</p>
+                <ul class="list">
+                  <li>Coordinated and managed a team of five developers to successfully deliver a software project within the given timeline.</li>
+                  <li>Conducted regular progress meetings with stakeholders and provided detailed updates on project status, risks and issues.</li>
+                  <li>Prepared project documentation, including project plans, schedules, and progress reports, in accordance with company standards.</li>
+                  <li>Conducted post-project analysis to identify areas for improvement and implemented necessary changes to enhance overall project performance.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="red" id="red" style="display: none;">
+              <h2 class="card-title">Hotcourses PVT. LTD. ▪ Chennai ▪ India</h2>
+              <div class="exp_details ">
+                <h4 class="card-subtitle">Module Lead <span class="timeline">06/2008 – 06/2015</span></h4>
+                <p>Handled multiple applications, one of the major applications is Uniguru which has list of courses according to country wise. This application helps students to find out their best courses according to their interest.</p>
+                <p class="bg-title"><img src="static/website.png" class="icon-img" /> Stack</p>                
+                <p>Spring 3.x, Java 1.6, JSP, JavaScript, CSS, Apache Tomcat 7.x</p>                
+                <p class="bg-title"><img src="static/goal.png" class="icon-img" /> Roles and Responsibilities</p>
+                <ul class="list">
+                  <li>Coordinated and oversaw the completion of multiple projects with a team of developers, ensuring timely delivery and adherence to project requirements.</li>
+                  <li>Conducted regular code reviews and provided feedback to team members, helping to improve the quality of code and overall efficiency of the team.</li>
+                  <li>Implemented new development methodologies and practices, such as Agile, to streamline project management and increase productivity.</li>
+                  <li>Collaborated with stakeholders to gather and analyze project requirements, and provided guidance to the team on how to best meet those requirements</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </article>
   </main>
 
   <script type="text/javascript" src="static/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+  <script type="text/javascript" src="static/tag_cloud.js"></script>
 </body>
 
 </html>
