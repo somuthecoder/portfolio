@@ -469,7 +469,7 @@ body {
 
 time {
     text-align: end;
-    /* flex: 0 0 150px; */
+    flex: 0 0 150px;
     min-width: 0;
     overflow-wrap: break-word;
     padding-bottom: 1rem;
@@ -629,8 +629,13 @@ ul.cloud a:hover::before {
     padding: 20px 30px;
 }
 
+.card-subtitle {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .timeline {
-    float: right;
+    text-align: right;
 }
 
 .exp_details p {
@@ -640,10 +645,14 @@ ul.cloud a:hover::before {
 
 .exp_details p.bg-title {
     font-weight: 700;
-    display: grid;
-    grid-template-columns: minmax(10px, 1fr) 11fr;
+    /* display: grid;
+    grid-template-columns: minmax(10px, 1fr) 11fr; */
     align-items: center;
     padding-bottom: 0;
+}
+.exp_details p.bg-title img {
+    float: left;
+    margin-right: 10px;
 }
 
 .exp {
@@ -720,6 +729,10 @@ textarea.input-field {
     .contact-card {
         padding: 68px;
     }
+
+    time {
+        flex: 0 0 100px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -732,6 +745,10 @@ textarea.input-field {
 
     .contact-card {
         padding: 68px;
+    }
+
+    time {
+        flex: 0 0 100px;
     }
 }
 
@@ -753,6 +770,10 @@ textarea.input-field {
         display: flex;
         align-items: center;
         gap: 20px;
+    }
+
+    time {
+        flex: 0 0 150px;
     }
 }
 
